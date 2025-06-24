@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VΞX Audio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-black text-white font-sans">
+  <header class="p-6 flex justify-between items-center border-b border-gray-800">
+    <h1 class="text-3xl font-bold">VΞX Audio</h1>
+    <nav class="space-x-4">
+      <a href="#releases" class="hover:underline">Releases</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </nav>
+  </header>
+
+  <main class="p-6">
+    <section class="py-12 text-center">
+      <h2 class="text-4xl font-bold mb-4">Underground Never Dies</h2>
+      <p class="text-gray-400 max-w-xl mx-auto">
+        VΞX Audio là nơi phát hành nhạc Phonk, Funk, Bassline và Underground vibes từ Việt Nam.
+      </p>
+    </section>
+
+    <section id="releases" class="py-12">
+      <h3 class="text-2xl font-bold mb-6 text-center">Releases</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="bg-gray-900 p-4 rounded-xl shadow-md">
+          <img src="track1.jpg" alt="Track 1" class="rounded-md mb-2" />
+          <h4 class="font-bold">MONTAGEM BATCHI (Instrumental)</h4>
+          <a href="#" class="text-purple-400 text-sm">Nghe ngay</a>
+        </div>
+        <div class="bg-gray-900 p-4 rounded-xl shadow-md">
+          <img src="track2.jpg" alt="Track 2" class="rounded-md mb-2" />
+          <h4 class="font-bold">DARK PHONK 002</h4>
+          <a href="#" class="text-purple-400 text-sm">Nghe ngay</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-12">
+      <h3 class="text-2xl font-bold mb-6 text-center">Submit Your Track</h3>
+      <form class="max-w-md mx-auto space-y-4">
+        <input type="text" placeholder="Tên bạn hoặc nghệ danh" class="w-full p-3 rounded bg-gray-800 text-white" required />
+        <input type="email" placeholder="Email của bạn" class="w-full p-3 rounded bg-gray-800 text-white" required />
+        <input type="url" placeholder="Link demo (Drive, SoundCloud, etc.)" class="w-full p-3 rounded bg-gray-800 text-white" required />
+        <button type="submit" class="w-full bg-purple-600 hover:bg-purple-700 p-3 rounded font-bold">Gửi Demo</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="p-6 text-center text-gray-500 border-t border-gray-800">
+    © 2025 VΞX Audio. Underground Never Dies.
+  </footer>
+</body>
+</html>
